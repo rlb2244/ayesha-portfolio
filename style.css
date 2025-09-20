@@ -10,19 +10,19 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: #3F51B5;
+  background-color: #B95E82;
 }
 
 .name {
   font-size: 3rem;
-  color: #FFEB3B;
+  color: #FFC29B;
   animation: glow 2s ease-in-out infinite;
 }
 
 @keyframes glow {
-  0% { text-shadow: 0 0 5px #FFEB3B; }
-  50% { text-shadow: 0 0 20px #FFEB3B; }
-  100% { text-shadow: 0 0 5px #FFEB3B; }
+  0% { text-shadow: 0 0 5px #FFC29B; }
+  50% { text-shadow: 0 0 20px #FFC29B; }
+  100% { text-shadow: 0 0 5px #FFC29B; }
 }
 
 .hidden {
@@ -40,8 +40,8 @@ main {
 }
 
 h2 {
-  color: #FFEB3B;
-  border-bottom: 2px solid #3F51B5;
+  color: #FFC29B;
+  border-bottom: 2px solid #B95E82;
   padding-bottom: 5px;
   margin-top: 2rem;
 }
@@ -54,10 +54,11 @@ ul {
 section {
   margin-bottom: 2rem;
 }
+
 .btn {
   display: inline-block;
   padding: 10px 20px;
-  background-color: #3F51B5;
+  background-color: #B95E82;
   color: #FFFFFF;
   text-decoration: none;
   border-radius: 5px;
@@ -65,9 +66,10 @@ section {
 }
 
 .btn:hover {
-  background-color: #FFEB3B;
+  background-color: #FFC29B;
   color: #121212;
 }
+
 form {
   display: flex;
   flex-direction: column;
@@ -80,11 +82,13 @@ input, textarea {
   border: none;
   border-radius: 5px;
 }
+
 .lang-toggle {
   position: fixed;
   top: 10px;
   right: 10px;
 }
+
 .bar {
   background: #B0BEC5;
   height: 10px;
@@ -93,20 +97,22 @@ input, textarea {
 }
 
 .fill {
-  background: #FFEB3B;
+  background: #FFC29B;
   height: 100%;
   border-radius: 5px;
 }
+
 .dark-toggle {
   position: fixed;
   top: 10px;
   left: 10px;
 }
+
 nav {
   position: fixed;
   bottom: 0;
   width: 100%;
-  background: #3F51B5;
+  background: #B95E82;
   display: flex;
   justify-content: center;
   gap: 15px;
@@ -114,9 +120,10 @@ nav {
 }
 
 nav a {
-  color: #FFEB3B;
+  color: #FFC29B;
   text-decoration: none;
 }
+
 /* Mobile Responsive Fixes */
 @media (max-width: 600px) {
   body {
@@ -149,6 +156,7 @@ nav a {
     margin-top: 10px;
   }
 }
+
 /* Dark Mode Styles */
 body.dark {
   background-color: #FFFFFF;
@@ -156,11 +164,11 @@ body.dark {
 }
 
 body.dark h2 {
-  color: #3F51B5;
+  color: #B95E82;
 }
 
 body.dark nav {
-  background-color: #B0BEC5;
+  background-color: #FFC29B;
 }
 
 body.dark nav a {
@@ -168,12 +176,11 @@ body.dark nav a {
 }
 
 body.dark .btn {
-  background-color: #FFEB3B;
+  background-color: #FFC29B;
   color: #121212;
 }
 
 body.dark .btn:hover {
-  background-color: #3F51B5;
+  background-color: #B95E82;
   color: #FFFFFF;
 }
-
