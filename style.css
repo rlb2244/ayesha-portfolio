@@ -2,7 +2,14 @@ body {
   margin: 0;
   font-family: 'Poppins', sans-serif;
   background-color: #121212;
+  color: #FFFFFF;body {
+  margin: 0;
+  font-family: 'Poppins', sans-serif;
+  background: linear-gradient(to bottom right, #B95E82, #FFC29B);
+  background-attachment: fixed;
   color: #FFFFFF;
+}
+
 }
 
 .intro {
@@ -184,3 +191,4 @@ body.dark .btn:hover {
   background-color: #B95E82;
   color: #FFFFFF;
 }
+
