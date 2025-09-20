@@ -149,3 +149,31 @@ nav a {
     margin-top: 10px;
   }
 }
+/* Dark Mode Styles */
+body.dark {
+  background-color: #FFFFFF;
+  color: #121212;
+}
+
+body.dark h2 {
+  color: #3F51B5;
+}
+
+body.dark nav {
+  background-color: #B0BEC5;
+}
+
+body.dark nav a {
+  color: #121212;
+}
+
+body.dark .btn {
+  background-color: #FFEB3B;
+  color: #121212;
+}
+
+body.dark .btn:hover {
+  background-color: #3F51B5;
+  color: #FFFFFF;
+}
+
